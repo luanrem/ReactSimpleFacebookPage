@@ -1,0 +1,10 @@
+
+.post_space {
+  width: 100%;
+  max-width: 800px;
+  min-width: 200px;
+  height: 3000px;
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+}

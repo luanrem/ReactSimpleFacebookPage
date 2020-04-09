@@ -1,0 +1,56 @@
+.header {
+  width: 100%;
+  height: 60px;
+  display: block;
+  background-color: #29487d;
+}
+
+.inner_header {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color: #29487d;
+}
+
+.logo_container {
+  height: 100%;
+  display: table;
+  float: left;
+  padding-left: 40px;
+}
+
+.logo_container h1 {
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 32px;
+  background-color: #29487d;
+}
+
+.navigation {
+  float: right;
+  height: 100%;
+  padding-right: 40px;
+}
+
+.navigation a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 10px;
+  background-color: #29487d;
+  color: white;
+}
+
+.navigation a li {
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #29487d;
+}
+
+.circle {
+  background-color: #29487d;
+}
