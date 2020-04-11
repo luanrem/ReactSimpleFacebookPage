@@ -4,8 +4,6 @@ import './Post.css'
 
 import Comment from './Comment';
 
-import Foto from '../assets/Foto.jpg'
-
 function Post({ post }) {
 
   return (
@@ -21,10 +19,13 @@ function Post({ post }) {
 
       <hr className="hr1" />
 
-      <Comment 
-        key={post.comments.id}
-        comment={post}
-      />
+      {post.comments.map(comment => (
+        <Comment
+          key={comment.id}
+          ble={comment}
+        />
+      ))}
+
 
     </div>
   );
