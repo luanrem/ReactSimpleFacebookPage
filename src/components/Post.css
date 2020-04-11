@@ -2,10 +2,6 @@ body {
   background-color: white;
 }
 
-img {
-  height: 60px;
-  border-radius: 50%;
-}
 
 .post_session {
   width: 100%;
@@ -17,7 +13,31 @@ img {
 
 .post_content {
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.post_content img {
+  height: 60px;
+  width: auto;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.post_content strong {
+  padding-left: 15px;
+  display: grid;
+  font-size: 16px;
+}
+
+.post_content p {
+  margin-top: 3px;
+  font-size: 16px;
+  color: #666;
+  line-height: 1.4;
+  text-align: left;
+}
+
 .post_comments {
   padding: 20px;
 }
