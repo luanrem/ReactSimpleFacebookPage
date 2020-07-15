@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 import './Comment.css'
 
-import Foto from '../assets/Foto.jpg'
-
 class Comment extends Component {
   render() {
     const { id, author, date, content } = this.props.ble;

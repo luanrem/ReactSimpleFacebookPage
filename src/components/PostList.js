@@ -18,12 +18,12 @@ class PostList extends Component {
           {
             id: 2,
             author: {
-              name: 'Diego Fernandes',
+              name: 'Luan Martins',
               avatar: 'https://avatars2.githubusercontent.com/u/2254731?v=4'
             },
             date: '12 Abr 2019',
             content:
-              'A Rocketseat está sempre em busca de novos membros para o time, e geralmente ficamos de olho em quem se destaca no Bootcamp, inclusive 80% do nosso time de devs é composto por alunos do Bootcamp. Além disso, se você tem vontade de ensinar gravando vídeos e criando posts, pode me chamar no Discord! (Sério, me chamem mesmo, esse comentário é real)'
+              'Este é um treinamento que estou realizando para colocar em prática minhas habilidades com o React. Logo é uma página simples, porém demonstra o progresso do meu treinamento com esta tecnologia.'
           }
         ]
       },
@@ -35,7 +35,7 @@ class PostList extends Component {
         },
         date: '04 Mar 2020',
         content:
-          'Fala galera, beleza?\nEstou fazendo o Bootcamp GoStack e está sendo muito massa! Alguém mais aí fazendo? Comenta aí na publicação para trocarmos uma idéia',
+          'Fala galera, beleza! Estou aqui para deixar meus agradecimentos em relação a todo apoio que tive até hoje para realizar isso.',
         comments: [
           {
             id: 4,
@@ -45,7 +45,7 @@ class PostList extends Component {
             },
             date: '06 Mar 2020',
             content:
-              'Também estou fazendo o Bootcamp e estou adorando! Estou no terceiro módulo sobre Node e já tenho minha API dos desafios construída!'
+              'Estou também montando uma API em NodeJS para me tornar um developer full stack e aprender na prática como é desenvolver!'
           },
           {
             id: 5,
@@ -55,7 +55,7 @@ class PostList extends Component {
             },
             date: '06 Mar 2020',
             content:
-              'Que maaaaaassa! Estou pensando em me inscrever na próxima turma pra ver qual é desse Bootcamp GoStack, dizem que os devs saem de lá com super poderes'
+              'Que maaaaaassa! Estou pensando em me inscrever em um curso de desenvolvedor full stack, o que acha?'
           }
         ]
       },
@@ -67,17 +67,17 @@ class PostList extends Component {
         },
         date: '04 Jun 2020',
         content:
-          'Fala galera, beleza?\nEstou fazendo o Bootcamp GoStack e está sendo muito massa! Alguém mais aí fazendo? Comenta aí na publicação para trocarmos uma idéia',
+          'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here,',
         comments: [
           {
             id: 6,
             author: {
               name: 'Clara Lisboa',
-              avatar: 'https://i.pravatar.cc/150?img=5'
+              avatar: 'https://i.pravatar.cc/150?img=28'
             },
             date: '04 Jun 2020',
             content:
-              'Também estou fazendo o Bootcamp e estou adorando! Estou no terceiro módulo sobre Node e já tenho minha API dos desafios construída!'
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'
           },
           {
             id: 7,
@@ -87,7 +87,7 @@ class PostList extends Component {
             },
             date: '07 Jun 2019',
             content:
-              'Que maaaaaassa! Estou pensando em me inscrever na próxima turma pra ver qual é desse Bootcamp GoStack, dizem que os devs saem de lá com super poderes'
+              'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt'
           }
         ]
       }
